@@ -20,10 +20,7 @@ Modular and scalable multi-page architecture
 Clone the repository
 Open terminal in the project folder
 
-Install dependencies:
-
-pip install -r requirements.txt
-
+Install dependencies
 
 Run the app:
 
