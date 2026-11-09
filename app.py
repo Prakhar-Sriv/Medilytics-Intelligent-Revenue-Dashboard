@@ -5,18 +5,12 @@ st.set_page_config(
     layout="wide"
 )
 
-st.write("Checkpoint 1: App started")
-
 from Login import show_login
-st.write("Checkpoint 2: Login imported")
 
 from Executive_Dashboard import show_dashboard
-st.write("Checkpoint 3: Executive Dashboard imported")
+
 
 from sidebar import sidebar
-st.write("Checkpoint 4: Sidebar imported")
-
-st.write("Checkpoint 5: All imports completed")
 
 for k, v in {
     "logged_in": False, "page": "executive", "filters": {},
